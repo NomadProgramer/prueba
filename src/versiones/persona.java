@@ -1,6 +1,8 @@
 package versiones;
 
 public class persona {
+	
+	// esto es una clase de persona
 	private String nombre;
 	private String apellido;
 	
