@@ -5,8 +5,8 @@ public class persona {
 	// esto es una clase de persona
 	private String nombre;
 	private String apellido;
-	public int DNI;
-	public String direccion;
+	private int DNI;
+	private String direccion;
 	
 	
 	public persona(String nombre, String apellido, int dNI, String direccion) {
@@ -28,6 +28,22 @@ public class persona {
 	}
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
+	}
+
+	public int getDNI() {
+		return DNI;
+	}
+
+	public void setDNI(int dNI) {
+		DNI = dNI;
+	}
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
 	}
 
 
