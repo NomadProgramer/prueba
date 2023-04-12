@@ -3,7 +3,9 @@ package versiones;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		String nombre = "meji";
+		System.out.println("me llamo" +nombre);
 
 	}
 
